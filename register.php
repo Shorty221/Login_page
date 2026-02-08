@@ -29,6 +29,17 @@
         <p class="text-center mt-3 small text-muted">Already have an account? <a href="login.php">Login here</a></p>
     </div>
 </div>
+<script src="auth.js"></script>
 
+    <script>
+        document.getElementById('regBtn').addEventListener('click', () => {
+            const u = document.getElementById('user').value;
+            const e = document.getElementById('mail').value;
+            const p = document.getElementById('pass').value;
+
+            // Call the function from auth.js
+            registerUser(u, e, p);
+        });
+    </script>
 </body>
 </html>

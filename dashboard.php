@@ -26,7 +26,7 @@ $skills = ["HTML", "CSS", "PHP"];
         <hr>
         <h5>Dashboard Menu</h5>
         <div class="list-group">
-          <a href="users.php" class="list-group-item list-group-item-action">View Users</a>
+  
           <a href="profile.php" class="list-group-item list-group-item-action">Profile</a>
           <a href="settings.php" class="list-group-item list-group-item-action">Settings</a>
           <a href="logout.php" class="list-group-item list-group-item-action text-danger">Logout</a>

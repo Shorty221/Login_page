@@ -12,7 +12,7 @@ if (!isset($_SESSION['username'])) {
 <html>
 <head>
     <title>Profile</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to CSS -->
 </head>
 <body>
 
